@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Generate a <span>random password<span></h1>
+        <p>Never use an insecure password again.</p>
+        <button onclick="generate()">Generate Passwords</button>
+        <div id="line"> </div>
+        <div id="container">
+        <div id="container-password-one">   
+            <span class="password-one">  </span>
+                <svg onclick="copyOne()" class="copy-icon" xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 24 30" width="20" height="20" fill="currentColor"> <path fill-rule="evenodd" clip-rule="evenodd" d="M1 8C1 7.44772 1.44772 7 2 7H16C16.5523 7 17 7.44772 17 8V22C17 22.5523 16.5523 23 16 23H2C1.44772 23 1 22.5523 1 22V8ZM3 9V21H15V9H3Z"/><path fill-rule="evenodd" clip-rule="evenodd"  d="M7 2C7 1.44772 7.44772 1 8 1H22C22.5523 1 23 1.44772 23 2V16C23 16.5523 22.5523 17 22 17H19V15H21V3H9V5H7V2Z"/></svg>                  
+        </div>  
+        <div id="container-password-two">
+            <span class="password-two">  </span>
+                <svg onclick="copyTwo()" class="copy-icon" xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 24 30" width="20" height="20" fill="currentColor"> <path fill-rule="evenodd" clip-rule="evenodd" d="M1 8C1 7.44772 1.44772 7 2 7H16C16.5523 7 17 7.44772 17 8V22C17 22.5523 16.5523 23 16 23H2C1.44772 23 1 22.5523 1 22V8ZM3 9V21H15V9H3Z"/><path fill-rule="evenodd" clip-rule="evenodd"  d="M7 2C7 1.44772 7.44772 1 8 1H22C22.5523 1 23 1.44772 23 2V16C23 16.5523 22.5523 17 22 17H19V15H21V3H9V5H7V2Z"/></svg>          
+         </div> 
+         <p id="copy-message">Şifre kopyalandı!</p> 
+        <script src="index.js"></script>
+    </body>
+</html>
